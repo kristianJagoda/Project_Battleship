@@ -17,9 +17,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1024px;
+    width: 1024px;
     height: 863px;
     margin: 0 auto;
+    margin-top: 30px;
+
 
 }
 
@@ -45,6 +47,29 @@ td {
   height: 96px;
   cursor: pointer;
 }
+/*-----ADDING STYLES TO THE MESSAGE AREA------*/
+
+.messageArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(83,175, 19);
+}
+/*----ADDING STYLES TO THE FORM-------*/
+form {
+  position: absolute;
+  top: 32px;
+  right: 0;
+  padding: 15px;
+  background-color: rgb(83, 175, 19);
+}
+
+form input {
+  background-color: rgb(152, 207, 113);
+  border-color: rgb(83, 175, 19);
+  font-size: 1rem;
+}
+
 /*---- CREATING TWO CLASSES FOR MISSES AND HITS ----*/
 .miss {
   background-image: url("../images/miss.png");
